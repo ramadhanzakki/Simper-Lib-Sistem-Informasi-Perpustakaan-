@@ -86,11 +86,22 @@ body {
     margin-top: 0;
 }
 
+.judul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
 
 .judul-bagian {
-    margin-bottom: 20px;
     border-left: 5px solid #1a227f;
     padding-left: 15px;
+    flex: 0 1 auto;
+}
+
+.tambah-buku {
+    flex-shrink: 0;
+    margin-left: 20px;
 }
 
 .judul-bagian h2 {
