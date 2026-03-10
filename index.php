@@ -27,7 +27,7 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Simper-Lib | Perpustakaan Mini</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=<?php echo time(); ?>">
 </head>
 <body>
 
@@ -36,7 +36,7 @@
             <h2>Simper-Lib | Sistem Informasi Perpustakaan</h2>
         </div>
         <div class="header-kanan">
-            <a href="tambah.php" class="tombol-header">Tambah Buku Baru</a>
+            
         </div>
     </div>
 
@@ -47,9 +47,14 @@
             <p>Kelola koleksi buku perpustakaan Anda dengan sistem manajemen yang modern dan efisien.</p>
         </div>
 
-        <div class="judul-bagian">
-            <h2>DAFTAR KOLEKSI BUKU PERPUSTAKAAN</h2>
-            <p>Manajemen data buku digital Simper-Lib</p>
+        <div class="judul">
+            <div class="judul-bagian">
+                <h2>DAFTAR KOLEKSI BUKU PERPUSTAKAAN</h2>
+                <p>Manajemen data buku digital Simper-Lib</p>
+            </div>
+            <div class="tambah-buku">
+                <a href="tambah.php" class="tombol-header">Tambah Buku Baru</a>
+            </div>
         </div>
 
         <div class="kotak-tabel">
